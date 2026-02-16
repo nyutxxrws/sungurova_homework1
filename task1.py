@@ -1,0 +1,5 @@
+name = input("Введите имя: ")
+surname = input("Введите фамилию: ")
+age = int(input("Введите возраст: "))
+print("Ваше имя: {}, Фамилия: {}, Возраст: {} лет".format(name, surname, age))
+print(f"Ваше имя: {name}, Фамилия: {surname}, Возраст: {age} лет")
